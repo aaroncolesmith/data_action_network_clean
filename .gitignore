@@ -1,0 +1,27 @@
+# Ignore common data output formats
+*.csv
+*.tsv
+*.json
+*.parquet
+*.xlsx
+*.feather
+*.zip
+*.gz
+*.pkl
+*.db
+
+# Ignore logs and cache
+*.log
+*.tmp
+__pycache__/
+.ipynb_checkpoints/
+
+# Ignore Python environment files
+.env
+.venv/
+*.pyc
+
+# Ignore scraped/generated data
+/data/
+outputs/
+results/

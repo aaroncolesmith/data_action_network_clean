@@ -25,7 +25,7 @@ def fav_payout(ml):
 def dog_payout(ml):
   return ml/100
 
-df=pd.read_parquet('https://github.com/aaroncolesmith/data_action_network/raw/refs/heads/main/data/df_soccer.parquet', engine='pyarrow')
+df=pd.read_parquet('https://github.com/aaroncolesmith/data_action_network_clean/raw/refs/heads/main/data/df_soccer.parquet', engine='pyarrow')
 
 df['home_score'] = df['boxscore.total_home_points']
 df['away_score'] = df['boxscore.total_away_points']
@@ -166,7 +166,7 @@ d.loc[d['over'] < 0, 'over_payout'] = d['over'].apply(fav_payout)*d['over_hit']
 d.loc[d['over'] > 0, 'over_payout'] = d['over'].apply(dog_payout)*d['over_hit']
 d.loc[d['over_hit'] == 0, 'over_payout'] = -1
 
-df_fb_ref = pd.read_parquet('https://github.com/aaroncolesmith/data_action_network/raw/refs/heads/main/data/fb_ref_data.parquet', engine='pyarrow')
+df_fb_ref = pd.read_parquet('https://github.com/aaroncolesmith/data_action_network_clean/raw/refs/heads/main/data/fb_ref_data.parquet', engine='pyarrow')
 print(df_fb_ref.index.size)
 df_fb_ref.drop_duplicates(subset=['url'], keep='last', inplace=True)
 print(df_fb_ref.index.size)

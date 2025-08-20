@@ -98,7 +98,7 @@ def refresh_fbref_data(df):
             )
 
 
-    dfs = pd.read_html(url, header=0, index_col=0)
+    dfs = pd.read_html(StringIO(r.text), header=0, index_col=0)
     df = pd.DataFrame(dfs[0])
     for i in range(1, len(dfs)):
         df = pd.concat([df,dfs[i]])
@@ -178,7 +178,7 @@ def refresh_fbref_data_updated(df):
             )
 
 
-    dfs = pd.read_html(url, header=0, index_col=0)
+    dfs = pd.read_html(StringIO(r.text), header=0, index_col=0)
     df = pd.DataFrame(dfs[0])
     for i in range(1, len(dfs)):
         df = pd.concat([df,dfs[i]])

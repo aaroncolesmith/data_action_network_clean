@@ -16,17 +16,12 @@ from datetime import date
 ### FBREF SECTION
 
 headers = {
-    'Access-Control-Allow-Origin': '*',
-    'Access-Control-Allow-Methods': 'GET',
-    'Access-Control-Allow-Credentials': 'true',
-    'Access-Control-Expose-Headers': 'Content-Length, Access-Control-Allow-Origin, Access-Control-Allow-Methods, Access-Control-Allow-Headers',
-    'Access-Control-Allow-Max-Age': '3600',
-    'Access-Control-Request-Method': 'GET',
-    'Access-Control-Request-Headers': 'Content-Type',
-    'Access-Control-Allow-Headers': 'Content-Type, Authorization',
-    'Access-Control-Max-Age': '3600',
-    'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
-    }
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'Accept-Language': 'en-US,en;q=0.9',
+    'Referer': 'https://fbref.com/',
+    'DNT': '1'  # Do Not Track request header
+}
 
 def get_proxy():
     r = requests.get('https://www.us-proxy.org/')

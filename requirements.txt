@@ -7,3 +7,4 @@ beautifulsoup4
 sentence-transformers==4.0.0
 accelerate==1.6.0
 datetime
+html5lib

@@ -156,6 +156,13 @@ def refresh_fbref_data_updated(df):
     url=f'https://fbref.com/en/matches/{dt}'
     r = requests.get(url,headers=headers,proxies=proxy)
 
+    print('proxy')
+    print(proxy)
+    print('headers')
+    print(headers)
+    print('status')
+    print(r.status_code)  
+
 
     soup = BeautifulSoup(r.content, "html.parser")
     all_urls = []

@@ -20,6 +20,7 @@ headers = {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
     'Accept-Language': 'en-US,en;q=0.9',
     'Referer': 'https://fbref.com/',
+    'Set-Cookie': 'bscookie=; Domain=.fbref.com; Expires=Wed, 01-Jan-2025 00:00:00 GMT; Path=/; Secure; SameSite=None',
     'DNT': '1'  # Do Not Track request header
 }
 

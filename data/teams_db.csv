@@ -1233,7 +1233,7 @@ team_id,team_full_name,team_display_name,team_short_name,team_location,team_abbr
 171,Minnesota Timberwolves,Timberwolves,Timberwolves,Minnesota,MIN,https://assets.actionnetwork.com/821630_twolves-cropped-128x128.png,005083,00A94F,WESTERN,NORTHWEST,minnesota-timberwolves,1.0,0.0,,,,233496,
 169,Chicago Bulls,Bulls,Bulls,Chicago,CHI,https://static.sprtactn.co/teamlogos/nba/100/chi.png,CE1141,061922,EASTERN,CENTRAL,chicago-bulls,0.0,0.0,,,,233496,
 169,Chicago Bulls,Bulls,Bulls,Chicago,CHI,https://static.sprtactn.co/teamlogos/nba/100/chi.png,CE1141,061922,EASTERN,CENTRAL,chicago-bulls,1.0,0.0,,,,233496,
-1131,Bayer Leverkusen,Leverkusen,Werkself,Germany,LEV,https://assets.actionnetwork.com/100x100/20248-15.png,3b373c,feb8ca,,,,0.0,1.0,1.0,,,258530,
+1131,Bayer Leverkusen,Leverkusen,Werkself,Germany,B04,https://assets.actionnetwork.com/100x100/20248-15.png,3b373c,feb8ca,,,,0.0,1.0,1.0,,,258530,
 1124,Eintracht Frankfurt,FRA,Adler,Germany,SGE,https://assets.actionnetwork.com/100x100/53637-13.png,f00a0a,f4f0f0,,,,2.0,0.0,0.0,,,258530,
 1144,Lorient,Lorient,Merlus,France,FCL,https://assets.actionnetwork.com/100x100/20254-17.png,f4521d,ffffff,,,,1.0,2.0,0.0,,,258611,
 2112,Elche,Elche,Elche,Spain,ELC,https://assets.actionnetwork.com/100x100/181265-14.png,ffffff,3150e1,,,,1.0,0.0,2.0,,,258783,

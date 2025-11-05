@@ -365,6 +365,8 @@ for league_id in range(3):
     print("An error occurred:", e)
 
 d = d.reset_index(drop=True)
+display(d.head(10))
+display(d.sample(10))
 d.loc[d.player_name.notnull(), 'bet_outcome'] = d['player_name']
 d.loc[d.player_name.isna(), 'bet_outcome'] = d['team_name']
 d = d.query('bet_outcome != "0"').reset_index(drop=True)

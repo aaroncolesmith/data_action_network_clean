@@ -1596,5 +1596,5 @@ team_id,team_full_name,team_display_name,team_short_name,team_location,team_abbr
 154,San Francisco 49ers,49ers,49ers,San Francisco,SF,https://static.sprtactn.co/teamlogos/nfl/100/sf.png,AA0000,B3995D,NFC,WEST,san-francisco-49ers,6.0,4.0,0.0,,,256703,
 132,Pittsburgh Steelers,Steelers,Steelers,Pittsburgh,PIT,https://static.sprtactn.co/teamlogos/nfl/100/pit.png,FFB612,000000,AFC,NORTH,pittsburgh-steelers,5.0,4.0,0.0,,,256704,
 1325,Los Angeles Chargers,Chargers,Chargers,Los Angeles,LAC,https://static.sprtactn.co/teamlogos/nfl/100/sd.png,0080C6,FFC20E,AFC,WEST,los-angeles-chargers,7.0,3.0,0.0,,,256704,
-147,Green Bay Packers,Packers,Packers,Green Bay,GB,https://static.sprtactn.co/teamlogos/nfl/100/gb.png,203731,FFB612,NFC,NORTH,green-bay-packers,5.0,2.0,1.0,,,256598,
-142,Philadelphia Eagles,Eagles,Eagles,Philadelphia,PHI,https://static.sprtactn.co/teamlogos/nfl/100/phi.png,004953,A5ACAF,NFC,EAST,philadelphia-eagles,6.0,2.0,0.0,,,256598,
+147,Green Bay Packers,Packers,Packers,Green Bay,GB,https://static.sprtactn.co/teamlogos/nfl/100/gb.png,203731,FFB612,NFC,NORTH,green-bay-packers,5.0,3.0,1.0,,,256598,
+142,Philadelphia Eagles,Eagles,Eagles,Philadelphia,PHI,https://static.sprtactn.co/teamlogos/nfl/100/phi.png,004953,A5ACAF,NFC,EAST,philadelphia-eagles,7.0,2.0,0.0,,,256598,

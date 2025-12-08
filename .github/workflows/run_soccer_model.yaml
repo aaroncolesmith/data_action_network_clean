@@ -7,8 +7,8 @@ name: run socer model
 
 on:
   # Cron job to run the workflow every 3 hours at 30 minutes past the hour
-  schedule:
-    - cron: '25 */3 * * *'
+  # schedule:
+  #   - cron: '25 */3 * * *'
   # Allows the workflow to be triggered manually
   workflow_dispatch:
 
